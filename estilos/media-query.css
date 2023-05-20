@@ -48,4 +48,8 @@ Grandes telas: acima de 1200px
         float: right;
         width: 50%;
     }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
 }
