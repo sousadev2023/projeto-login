@@ -28,11 +28,6 @@ Grandes telas: acima de 1200px
     float: right;
     width: 70%;
    }
-   
-   div.campo > input {
-    width: 90%;
-    transform: translate(-45%, -50%);
-}
 }
 
 @media screen and (min-width: 992px) {
@@ -60,8 +55,12 @@ Grandes telas: acima de 1200px
         font-size: 1.2em;
     }
 
-    div.campo > input {
-        width: 90%;
-        transform: translate(-45%, -50%);
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#paragrafo > p {
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
